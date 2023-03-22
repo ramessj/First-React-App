@@ -26,13 +26,14 @@ export const CounterApp = ({value}) => {
 
   return (
     <>
-    <h1>CounterApp</h1>
+    <h1>Counter App</h1>
     
     <h2>{counter}</h2>
-    
+    <div className='buttonsDiv'>
     <button type='button' onClick={ sumarUno }>+1</button>
     <button type='button' onClick={ restarUno }>-1</button>
     <button type='button' onClick={ restartCounter }>Reset</button>
+    </div>
     </>
   )
 };
